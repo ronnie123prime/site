@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="shield" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#2196ff"/>
+      <stop offset="100%" stop-color="#0066cc"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cce5ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Blue filled shield -->
+  <path d="M32 4 L56 14 L56 32 C56 46 45 56 32 61 C19 56 8 46 8 32 L8 14 Z" fill="url(#shield)"/>
+  <!-- White lightning bolt -->
+  <path d="M30 15 L20 33 L29 33 L24 50 L44 28 L34 28 L39 15 Z" fill="url(#bolt)"/>
+</svg>
